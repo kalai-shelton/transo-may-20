@@ -1,0 +1,50 @@
+{{ partial "resources/header.html" . }}
+<section class="resources-tab-section">
+    <div class="container">
+        <div class="panel with-nav-tabs panel-default ">
+            <div class="panel-heading tabslist">
+                <ul class="nav nav-tabs resourcetabs" style="justify-content:center; text-align:center">
+                    <a  href="/resources/" > 
+                       <h2> ALL </h2>
+                    </a>
+                    <a href="/whitepapers/" > <h2>   Whitepapers </h2> </a>
+                   <a class="active" href="/blogs-updates/" > <h2>  Blog & Updates </h2> </a>
+                    <a href="/inthenews/" > <h2>  In The News </h2></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="blogs-pages">
+<div class="container pt-5">
+    <div class="card mb-3 " >
+        <img src="{{.Params.ConnectedImg11}}" class="card-img-top" alt="..." style="height: 25rem;" >
+        <div class="card-body">
+          <h3 class="card-title">Connected Logistics</h3>
+          <p class="card-text">Srikanth M</p>
+          <p class="card-text "><small class="text-muted">20th June 2020</small></p>
+          <p class="card-text "><small class="text-muted">srikanth@transo.in | Phone: 99005 91001 | Web: https://www.transo.in</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container border-top">
+        <p class="pt-5">{{.Params.connectedp1}}</p>
+        <p>{{.Params.connectedp2}}</p>
+        <h5>{{.Params.connectedH2}}</h5>
+        <p>{{.Params.connectedp3}}</p>
+        <p>{{.Params.connectedp4}} </p>
+        <p>{{.Params.connectedp5}}</p>
+        <p>{{.Params.connectedp6}} </p>
+        <p>{{.Params.connectedp7}}</p>
+        <h5>{{.Params.connectedH3}}</h5>
+        <p>{{.Params.connectedp8}}</p>
+        <p>{{.Params.connectedp9}}</p>
+        <p>{{.Params.connectedp10}}</p>
+        <p>{{.Params.connectedp11}}</p>
+        <p>{{.Params.connectedp12}}</p>
+
+    </div>
+</div>

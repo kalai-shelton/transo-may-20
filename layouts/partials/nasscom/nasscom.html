@@ -1,0 +1,42 @@
+{{ partial "resources/header.html" . }}
+<section class="resources-tab-section">
+    <div class="container">
+        <div class="panel with-nav-tabs panel-default ">
+            <div class="panel-heading tabslist">
+                <ul class="nav nav-tabs resourcetabs" style="justify-content:center; text-align:center">
+                    <a  href="/resources/" > 
+                       <h2> ALL </h2>
+                    </a>
+                    <a href="/whitepapers/" > <h2>   Whitepapers </h2> </a>
+                   <a  href="/blogs-updates/" > <h2>  Blog & Updates </h2> </a>
+                    <a class="active" href="/inthenews/" > <h2>  In The News </h2></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="blogs-pages">
+    <div class="container">
+    <div class="card mb-3"   >
+        <img src="{{.Params.NascomImg}}" class="card-img-top pt-5"style="height: 25rem;"  alt="...">
+        <div class="card-body">
+          <h3 class="card-title">{{.Params.NascomH}}</h3>
+          <p class="card-text"></p>
+          <p class="card-text "><small class="text-muted">{{.Params.NascomD}}</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="container border-top pb-5">
+<p class="pt-5">{{ .Params.NascomP1}}</p>
+<p >{{ .Params.NascomP2}}</p>
+<h4 class="ref">{{.Params.ref}}</h4>
+<div class="pt-2">
+            <a class="links"href="https://community.nasscom.in/communities/digital-transformation/healthtech-and-life-sciences/the-9th-edition-of-lhif-underlines-vaccine-trails-and-the-need-to-optimize-the-supply-chain.html"target="_blank">https://community.nasscom.in/communities/digital-transformation/healthtech-and-life-sciences/the-9th-edition-of-lhif-underlines-vaccine-trails-and-the-need-to-optimize-the-supply-chain.html</a>
+        </div> 
+        <div class="pt-3">
+        <a class="links "href="https://www.linkedin.com/showcase/lhif-%E2%80%93-a-nasscom-healthcare-initiative/posts/?feedView=all"target="_blank">https://www.linkedin.com/showcase/lhif-%E2%80%93-a-nasscom-healthcare-initiative/posts/?feedView=all </a>
+         </div>
+</div>
+

@@ -1,0 +1,35 @@
+{{ partial "resources/header.html" . }}
+<section class="resources-tab-section">
+    <div class="container">
+        <div class="panel with-nav-tabs panel-default ">
+            <div class="panel-heading tabslist">
+                <ul class="nav nav-tabs resourcetabs" style="justify-content:center; text-align:center">
+                    <a  href="/resources/" > 
+                       <h2> ALL </h2>
+                    </a>
+                    <a href="/whitepapers/" > <h2>   Whitepapers </h2> </a>
+                   <a  href="/blogs-updates/" > <h2>  Blog & Updates </h2> </a>
+                    <a class="active" href="/inthenews/" > <h2>  In The News </h2></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="blogs-pages">
+    <div class="container">
+    <div class="card mb-3"   >
+        <img src="{{.Params.AdityaImg}}" class="card-img-top pt-5"style="height: 25rem;"  alt="...">
+        <div class="card-body">
+          <h3 class="card-title">{{.Params.AdityaH}}</h3>
+          <p class="card-text"></p>
+          <p class="card-text "><small class="text-muted">{{.Params.AdityaD}}</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="container  border-top pb-5">
+<p class="pt-5">{{ .Params.AdityaP}}</p>
+</div>
+</div>
+

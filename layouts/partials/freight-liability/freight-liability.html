@@ -1,0 +1,39 @@
+{{ partial "resources/header.html" . }}
+<section class="resources-tab-section">
+    <div class="container">
+        <div class="panel with-nav-tabs panel-default ">
+            <div class="panel-heading tabslist">
+                <ul class="nav nav-tabs resourcetabs" style="justify-content:center; text-align:center">
+                    <a  href="/resources/" > 
+                       <h2> ALL </h2>
+                    </a>
+                    <a href="/whitepapers/" > <h2>   Whitepapers </h2> </a>
+                   <a class="active" href="/blogs-updates/" > <h2>  Blog & Updates </h2> </a>
+                    <a href="/inthenews/" > <h2>  In The News </h2></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="blogs-pages">
+    <div class="container">
+    <div class="card mb-3"   >
+        <img src="{{.Params.frieghtImg1}}" class="card-img-top"style="height: 25rem;"  alt="...">
+        <div class="card-body">
+          <h3 class="card-title">{{.Params.frieghtH}}</h3>
+          <p class="card-text"></p>
+          <p class="card-text "><small class="text-muted">Date:</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+<p>{{ .Params.frieghtp1}}</p>
+<p>{{ .Params.frieghtp2}}</p>
+<p>{{ .Params.frieghtp3}}</p>
+<p>{{ .Params.frieghtp4}}</p>
+<p>{{ .Params.frieghtp5}}</p>
+    </div>
+</div>
+

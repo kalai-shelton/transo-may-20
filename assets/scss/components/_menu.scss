@@ -1,0 +1,12 @@
+.navbar-collapse
+{
+  justify-content: flex-end; 
+}
+
+.dropdown-menu {
+  left:auto;
+}
+.navi:hover>.dropdown-menu {
+  display: block;
+ 
+}
